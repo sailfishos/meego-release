@@ -1,0 +1,7 @@
+<package project="Mer:Trunk:Base" name="meego-release">
+  <title>MeeGo release files</title>
+  <description>MeeGo release files such as various /etc/ files that define the release.
+
+</description>
+  <url>http://www.meego.com</url>
+</package>
