@@ -1,0 +1,20 @@
+Name: mer-release
+Summary: "%{release_name} release files"
+Version: 0.2011
+Release: 1
+Group: System/Base
+License: GPLv2
+URL: http://www.merproject.org/
+Description: "%{release_name} release files such as various /etc/ files that define the release."
+
+Provides:
+    - system-release = %{version}-%{release}
+    - moblin-release = 2.2
+    - meego-release  = 1.3
+Obsoletes:
+    - moblin-release <= 2.1.92-4.6
+    - meego-release <= 1.2.90
+Configure: none
+Builder: none
+BuildArch: noarch
+NoSetup: yes
